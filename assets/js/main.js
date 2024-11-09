@@ -162,7 +162,25 @@ themeButton.addEventListener('click', () => {
 })
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
+const scrollHeader = () =>{
+    const header = document.getElementById('header')
+    // Add a class if the bottom offset is greater than 50 of the viewport
+    this.scrollY >= 50 ? header.classList.add('bg-header') 
+                       : header.classList.remove('bg-header')
+}
+window.addEventListener('scroll', scrollHeader)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset:true /*animations repeat*/ 
+})
 
+sr.reveal(`.home__data, .projects__container, .testimonial__container, .footer__container`)
+sr.reveal(`.home__info div`,{delay: 600, origin:'bottom', interval: 100})
+sr.reveal(`.skills__content:nth-child(1), .contact__content:nth-child(1)`,{origin:'left'})
+sr.reveal(`.skills__content:nth-child(2), .contact__content:nth-child(2)`,{origin:'right'})
+sr.reveal(`.qualification__content, .services__card`,{interval:100})
