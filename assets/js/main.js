@@ -73,6 +73,30 @@ const sendEmail = (e) =>{
         // Add and remove color
         contactMessage.classList.remove('color-blue')
         contactMessage.classList.add('color-red')
+
+        //show message
+        contactMessage.textContent = 'Write All Input fields 🥧'
+    }else{
+        //serviceId - te,plateID - fprm - publickey
+        emailjs.sendForm('service_d00y3kc','template_r721yyx','#contact-form','ttKt8rNt_JTxO_dlf')
+        .then(() =>{
+            //show message and color
+            contactMessage.classList.add('color-blue')
+            contactMessage.textContent = 'Message Sent ✅'
+
+            //remove message after sent
+            setTimeout(() =>{
+                contactMessage.textContent = ''
+            },5000)
+        },(error)=>{
+            alert('OOPS! Something Has Wrong......',error)
+        })
+
+
+        //to clear the inputs
+        contactName.value = ''
+        contactEmail.value = ''
+        contactProject.value = ''
     }
 }
 contactForm.addEventListener('submit' , sendEmail)
