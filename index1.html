@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/icons8-p-32.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles2.css">
+
+        <title> Projects</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Chipzy360</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link ">
+                                <i class='bx bx-home-alt-2'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>                        
+                        
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link ">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link ">
+                                <i class='bx bx-message-rounded-dots'></i>
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+                <!-- theme chane button -->
+                <i class='bx bx-moon change-theme' id="theme-button" ></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container containe grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Tharaka Bandara</h1>
+                        <h3 class="home__education">UI/UI Designer & Frontend Developer</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/Ansel-Cv.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+
+                            <a href="#about" class="button">About Me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/perfil1.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/tharaka-vimukthi-44a316201" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square'  ></i>
+                        </a>
+
+                        <a href="https://github.com/Chipzy98" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+
+                        <a href="https://discord.com/invite/8Pk3hgWb" target="_blank" class="home__social-link">
+                            <i class='bx bxl-discord-alt'></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <!-- <section class="about section" id="about">
+                
+            </section> -->
+
+            <!--=============== SKILLS ===============-->
+            <!-- <section class="skills section" id="skills">
+                
+            </section> -->
+
+            <!--=============== SERVICES ===============-->
+            <!-- <section class="services section">
+                
+            </section> -->
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>All</span>
+                    <span class="work__item" data-filter='.ui'>Designs</span>
+                    <span class="work__item" data-filter='.frontend'>Frontend</span>
+                    <span class="work__item" data-filter='.others'>Others</span>
+                </div>
+
+                <div class="works__container container grid">
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project1.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Event Management System</h3>
+
+                        <a href="https://www.figma.com/design/6YnFisCUnCAnDz7RPV7QIW/Event-Management-System?node-id=0-1&t=j4E6SUJtxhNLM7eA-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project3.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Heal Life (Health Care)</h3>
+
+                        <a href="https://www.figma.com/design/xpe05z7kqXFxcWe5TuqTam/Healthcare-e-commerce-applications-UI%2FUX-Design?t=1Tr7ejMQqu1aaGxg-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project4.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Ocean One Hotel</h3>
+
+                        <a href="https://www.figma.com/design/jD0s6FiubSl11fPhsEQuFs/Ocean-One-Hotel-Sri-Lanka?node-id=0-1&t=2CG6hUrkYYkOg79q-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project2.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Photographer Portfolio</h3>
+
+                        <a href="https://www.figma.com/design/9IAesxtG22j66st2GN1cPx/Photographer-Portfolio?t=1Tr7ejMQqu1aaGxg-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <!-- 2nd set -->
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project5.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Luxury Hotel Webpage</h3>
+
+                        <a href="https://www.figma.com/design/BKzAlfFvBb0AD0GZbGwaiM/Hotel-Website-Design-(Community)?t=1Tr7ejMQqu1aaGxg-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project11.png" alt="" class="work__img">
+
+                        <h3 class="work__title">IOS Smart Watch App</h3>
+
+                        <a href="https://drive.google.com/drive/folders/1T8Nejf3boBmtJn-pymwr9-D6c6MErnP8?usp=drive_link" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project12.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Mirabel Designs</h3>
+
+                        <a href="https://www.figma.com/design/17sXwcxVjCiqlQYWh65sYA/Mirabel-Design-(Jewelry-Shop)?node-id=0-1&t=1Tr7ejMQqu1aaGxg-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project13.png" alt="" class="work__img">
+
+                        <h3 class="work__title">AI Chat Assistance</h3>
+
+                        <a href="https://www.figma.com/design/iTplbRZSHdsJmBATak6ivX/Ai-Chat-Assistance?node-id=187-2195&t=1Tr7ejMQqu1aaGxg-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <!-- 3rd set -->
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project7.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Montesoori LMS</h3>
+
+                        <a href="https://www.figma.com/design/lnRBzVGOiGd5tPa2vFVwFs/Montessori---LMS?node-id=0-1&t=5X0yj3G8t9DNuN5Z-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project9.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Photographer Web Page</h3>
+
+                        <a href="https://www.figma.com/design/HuC77l2rlqaV3qizTerHV0/WEB-For-Photographer?node-id=0-1&t=SkkOOsGaw6vWld37-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project10.png" alt="" class="work__img">
+
+                        <h3 class="work__title">COCO Doctor Mobile App</h3>
+
+                        <a href="https://drive.google.com/file/d/1x0US_e2TrSfDoEEwLVMNoeRozhoC0BLc/view?usp=sharing" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project6.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Travel Agency Website</h3>
+
+                        <a href="https://www.figma.com/design/PI5zT4DVl8GaPBcNn8Qbl2/Travel-Agency?t=09QAQntKkykPKAyf-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project15.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Clothing Store Web</h3>
+
+                        <a href="https://www.figma.com/design/KBXrH94UPo5u3foryLVVwK/Cloth-Store-%7C-Fashion-Store-%7C-E-commerce-UI-Kit-(Community)?node-id=0-1&t=09QAQntKkykPKAyf-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <!-- 4th set -->
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project8.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Restaurant Web Page</h3>
+
+                        <a href="https://drive.google.com/drive/folders/1Ij0QWP8fuuXyGr7BZQZj67Kgm2ZbeHQL?usp=drive_link" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix ui">
+                        <img src="assets/img/project14.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Sing-In / Sing-out Page</h3>
+
+                        <a href="https://www.figma.com/design/EKZV08j40tJ2vmoCPPXRGg/Sign-in-%2F-Sign-up-for-Clothing-Brand-UI?t=09QAQntKkykPKAyf-1" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>       
+
+                    <!-- frontend-->
+                    <div class="work__card mix frontend">
+                        <img src="assets/img/project12.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Mirabel Designs</h3>
+
+                        <a href="https://github.com/Chipzy98/MirabelJewels.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <img src="assets/img/project17.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Colombo Maths Web page</h3>
+
+                        <a href="https://github.com/Chipzy98/ColomboMaths.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <img src="assets/img/project16.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Heal Well Hospital Management System</h3>
+
+                        <a href="https://github.com/Chipzy98/pos--Hospital-management-system-healwell-.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <img src="assets/img/project18.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Library Management System</h3>
+
+                        <a href="https://github.com/Chipzy98/Library-System.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <!-- others -->
+
+                    <div class="work__card mix others">
+                        <img src="assets/img/project7.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Asian Pearl Montesoori LMS</h3>
+
+                        <a href="https://github.com/Chipzy98/Asian-Pearl-LMS.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix others">
+                        <img src="assets/img/project119.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Car Wash Management System</h3>
+
+                        <a href="https://github.com/Chipzy98/CarwashManagementSystem.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                    <div class="work__card mix others">
+                        <img src="assets/img/project16.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Heal Well Hospital Management System</h3>
+
+                        <a href="https://github.com/Chipzy98/pos--Hospital-management-system-healwell-.git" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>                        
+                    </div>
+
+                </div>
+            </section>
+
+            <!--=============== TESTIMONIALS ===============-->
+            <!-- <section class="testimonial section">
+                
+            </section> -->
+
+            <!--=============== CONTACT ===============-->
+            <!-- <section class="contact section" id="contact">
+                
+            </section> -->
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Chipzy360</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/tharaka-vimukthi-44a316201" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square'  ></i>
+                    </a>
+
+                    <a href="https://github.com/Chipzy98" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+
+                    <a href="https://discord.com/invite/8Pk3hgWb" class="footer__social-link">
+                        <i class='bx bxl-discord-alt'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    Chipzy360 &#169; All Right Reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/2js/scrollreveal1.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <!-- <script src=""></script> -->
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/2js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/2js/main1.js"></script>
+    </body>
+</html>
